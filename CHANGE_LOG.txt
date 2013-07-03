@@ -1,0 +1,6 @@
+1. Added render_partial to template.class.php
+2. Added the ability to override the default header.php file by including a _header.php in the view folder.
+3. Added the ability to override the default footer.php file by including a _footer.php in the view folder.
+4. Objects return as Object instead of array. Needs to be switched to a faster method than json_decode(json_endode())
+5. Objects Have Relationships hasOne hasMany HABTM 
+6. Added check for url to contain controller/action/id
